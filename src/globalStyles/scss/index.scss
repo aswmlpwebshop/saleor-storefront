@@ -145,3 +145,37 @@ body {
 .form-error {
   color: $rose;
 }
+
+i.arrow-down {
+  background: url(../images/mdi_expand_more.png) no-repeat center center;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size: auto;
+  padding: 10px 10px 10px 10px;
+  margin: 10px;
+}
+
+i.search-icon {
+  background: url(../images/search_24px.png) no-repeat center center;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size: auto;
+  height: 20px;
+  width: 20px;
+  top: 35%;
+  position: absolute;
+}
+
+i.pills-icon {
+  background: url(../images/pills.png) no-repeat center center;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size: auto;
+  height: 24px;
+  width: 24px;
+  left: -9%;
+  position: absolute;
+}

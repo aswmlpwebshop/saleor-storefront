@@ -1,5 +1,5 @@
 @import "../../../globalStyles/scss/variables.scss";
-
+/*
 .main-menu {
   align-items: center;
   align-items: stretch;
@@ -286,5 +286,127 @@
         }
       }
     }
+  }
+}
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.dropdown-menu {
+
+}
+
+section.head {
+  .search {
+    margin: 10px 0px;
+
+    .logo{
+      a {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 84px;
+        letter-spacing: -0.015em;
+        color: #161616;
+      }
+    }
+
+    .input-group {
+      height: 64px;
+    }
+
+    button {
+      &.btn {
+        &.btn-default {
+          &.dropdown-toggle-search {
+            border: 2px solid #E8E8E8;
+            box-sizing: border-box;
+            border-radius: 100px;
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+            border-right: 0px;
+            position: relative;
+            height: 64px;
+
+            &:before {
+              content: '';
+              height: 25%;
+              width: 2px;
+              position: absolute;
+              right: 0%;
+              padding: 0px;
+              top: 39%;
+              background-color: #E8E8E8;
+            }
+          }
+        }
+      }
+      &.search-button {
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        border-radius: 100px;
+        width: 118px;
+      }
+    }
+
+    input {
+      border: 2px solid #E8E8E8;
+      box-sizing: border-box;
+      border-radius: 100px;
+      position: relative;
+      flex: 1 1 auto;
+      width: 1%;
+      border-left: 0px;
+      min-width: 0;
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+      margin-bottom: 0;
+      padding: 0px 10px;
+      height: 64px;
+
+      &:focus {
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(33, 18, 94, 0.25);
+      }
+    }
+
+    .search-panel {
+      .dropdown-menu {
+        width: 480px;
+        padding: 0px;
+        background: #FFFFFF;
+        border-radius: 24px;
+        border: 0px;
+        box-shadow: 0px 12px 12px 0 rgba(0,0,0,0.7);
+
+        ul {
+          padding: 20px 0px 20px 80px;
+
+          li {
+            padding-left: 0px;
+            border: 0px;
+            border-bottom: 1px solid #464646;
+
+            p {
+              margin-bottom: 0px;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 23px;
+              letter-spacing: 0.04em;
+              color: #464646;
+            }
+
+          }
+
+        }
+
+      }
+    }
+
   }
 }
