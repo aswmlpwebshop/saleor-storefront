@@ -1,0 +1,116 @@
+section {
+  &.footer {
+    h4 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 23px;
+      letter-spacing: 0.04em;
+      color: #464646;
+    }
+
+    span, p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      letter-spacing: -0.015em;
+      color: #464646;
+    }
+
+    a {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      color: #464646;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    ul li.nav-item {
+      width: max-content;
+      height: 24px;
+      position: relative;
+      margin-right: 10px;
+
+      &:before {
+        content: '';
+        height: 70%;
+        width: 2px;
+        position: absolute;
+        right: 0%;
+        padding: 0px;
+        top: 10%;
+        background-color: #E8E8E8;
+      }
+    }
+
+    form {
+      label {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 0.04em;
+        color: #464646;
+      }
+
+      input {
+        background: #FFFFFF;
+        border: 2px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 24px;
+        height: 64px;
+      }
+    }
+  }
+
+  &.copy-right {
+    a.logo {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 72px;
+      line-height: 84px;
+      letter-spacing: -0.015em;
+      color: #161616;
+    }
+
+    span {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      color: #464646;
+    }
+
+    .navbar {
+      position: relative;
+      display: -ms-flexbox;
+      display: flex;
+
+      ul.navbar-nav {
+        flex-direction: row;
+
+        li.nav-item a {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 21px;
+          color: #464646;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    a.logo {
+      text-decoration: none;
+    }
+  }
+}

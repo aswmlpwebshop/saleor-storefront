@@ -1,0 +1,203 @@
+section {
+  &.banner {
+    .categories {
+      .card {
+        border-radius: 24px;
+        border: 0px;
+
+        .card-body {
+          padding: 0rem 0rem 0rem 0rem;
+
+          .card-title {
+            margin-bottom: 1.5rem;
+            margin-left: 1.5rem;
+          }
+          .all-categories {
+            margin-top: 2rem;
+
+            ul {
+              &.list-group {
+                li {
+                  &.list-group-item {
+                    &:before {
+                      background: url(../images/menu_24px.png) no-repeat center center;
+                      -webkit-background-size: auto;
+                      -moz-background-size: auto;
+                      -o-background-size: auto;
+                      background-size: auto;
+                      padding: 10px 10px 10px 10px;
+                      margin: 0px;
+                      border-radius: 0px;
+                      border: 0px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          ul {
+            &.list-group {
+              li {
+                &.list-group-item {
+                  padding: 23px 0px 0px 0px;
+                  margin-left: 76px;
+                  background-color: transparent;
+                  position: relative;
+                  border-bottom: 1px solid #E8E8E8;
+                  font-family: 'Roboto', sans-serif;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 16px;
+                  line-height: 23px;
+                  letter-spacing: 0.04em;
+                  color: #161616;
+
+                  &:hover, &.active {
+                    border: 1px solid #E8E8E8;
+                    margin: 0px;
+                    padding: 18px 0px 18px 75px;
+                    padding-left: 75px;
+                    transform: translateY(-0.05em);
+                    box-shadow: 0.5em 0.5em 0.5em -0.4em rgba(0, 0, 0, 0.25);
+                    background: #FFFFFF;
+                    border-radius: 100px;
+                  }
+
+                  &:hover i.pills-icon, &.active i.pills-icon {
+                    background: url(../images/pills-hover.png) no-repeat center center;
+                    left: 2%;
+                    padding: 24px;
+                    top: 6px;
+                    background-color: #2196F3;
+                    border-radius: 100px;
+                  }
+
+
+                  &:hover, &.active {
+                    i{
+                      &.cosmetics-icon,
+                      &.cosmetics-icon,
+                      &.hartbeat-icon,
+                      &.hartbeat-icon,
+                      &.harb-icon,
+                      &.harb-icon,
+                      &.insurance-icon,
+                      &.insurance-icon,
+                      &.pillsbotle-icon,
+                      &.pillsbotle-icon,
+                      &.menu-icon,
+                      &.menu-icon {
+                        left: 2%;
+                        padding: 24px;
+                        top: 6px;
+                        background-color: #2196F3;
+                        border-radius: 100px;
+                      }
+                    }
+
+                  }
+                  &:hover p, &.active p {
+                    margin: 0px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #homeSlider {
+      border-radius: 24px;
+
+      .carousel-control-prev {
+        height: 64px;
+        width: 64px;
+        top: 45%;
+        border-radius: 100%;
+        opacity: 1;
+        color: #464646;
+        left: 0px;
+      }
+
+      a.carousel-control-next {
+        height: 64px;
+        width: 64px;
+        top: 45%;
+        border-radius: 100%;
+        opacity: 1;
+        color: #464646;
+        right: 0px;
+      }
+
+      .carousel-indicators li {
+        width: 24px;
+        border-radius: 100%;
+        height: 24px;
+        margin-right: 24px;
+        margin-left: 24px;
+        background-color: #5F6368;
+      }
+
+      .carousel-inner {
+        border-radius: 24px;
+        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+
+        .carousel-item {
+          .carousel-caption {
+            width: auto;
+            text-align: left;
+            bottom: unset;
+            top: 25%;
+          }
+
+          .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 80%;
+            background-color: #A9A9A9;
+            opacity: 0.5;
+          }
+
+          .carousel-caption {
+            span {
+              font-family: 'Roboto', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 28px;
+              color: #161616;
+
+              &.old-price {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 42px;
+                text-decoration-line: line-through;
+                color: #161616;
+              }
+            }
+
+            h2 {
+              font-family: 'Roboto', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 72px;
+              line-height: 84px;
+              color: #161616;
+              margin-bottom: 20px;
+            }
+          }
+          img {
+            min-height: 700px;
+          }
+        }
+      }
+    }
+
+  }
+}

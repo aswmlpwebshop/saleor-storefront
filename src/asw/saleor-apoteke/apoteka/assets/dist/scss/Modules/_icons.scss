@@ -1,0 +1,255 @@
+i {
+  &.minus-icon {
+    background: url(../images/remove.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    height: 1px;
+    width: 24px;
+    left: -9%;
+    position: absolute;
+  }
+
+  &.search-icon {
+    background: url(../images/search_24px.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    height: 20px;
+    width: 20px;
+    top: 35%;
+    position: absolute;
+  }
+
+  &.plus-icon {
+    background: url(../images/add.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    padding: 15px 15px;
+    top: -4px;
+    left: -4px;
+    position: absolute;
+  }
+
+  &.pills-icon {
+    background: url(../images/pills.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    height: 24px;
+    width: 24px;
+    left: -9%;
+    position: absolute;
+  }
+
+  &.cosmetics-icon {
+    background: url(../images/cosmetics.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    height: 24px;
+    width: 24px;
+    left: -9%;
+    position: absolute;
+  }
+
+  &.hartbeat-icon {
+    background: url(../images/heartbeat.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    height: 24px;
+    width: 24px;
+    left: -9%;
+    position: absolute;
+  }
+
+  &.harb-icon {
+    background: url(../images/herb.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    height: 24px;
+    width: 24px;
+    left: -9%;
+    position: absolute;
+  }
+
+  &.insurance-icon {
+    background: url(../images/insurance.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    height: 24px;
+    width: 24px;
+    left: -9%;
+    position: absolute;
+  }
+
+  &.menu-icon {
+    background: url(../images/menu_24px.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    height: 24px;
+    width: 24px;
+    left: -9%;
+    position: absolute;
+  }
+
+  &.pillsbotle-icon {
+    background: url(../images/pills-2.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    height: 24px;
+    width: 24px;
+    left: -9%;
+    position: absolute;
+  }
+
+  &.phone-icon {
+    background: url(../images/call_24px.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    padding: 5px 0px 5px 48px;
+    margin-left: -10px;
+  }
+
+  &.email-icon {
+    background: url(../images/email_24px.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    padding: 5px 0px 5px 48px;
+    margin-left: -10px;
+  }
+
+  &.pin-icon {
+    background: url(../images/place_24px.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    padding: 5px 0px 5px 48px;
+    margin-left: -10px;
+  }
+
+  &.arrow-down {
+    background: url(../images/mdi_expand_more.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+  }
+
+  &.arrow-left {
+    background: url(../images/arrow_back_ios_left.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+  }
+
+  &.arrow-right {
+    background: url(../images/arrow_forward_ios_right.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+  }
+
+  &.hart-icon {
+    background: url(../images/like_product.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    height: 36px;
+    width: 36px;
+    right: 0px;
+    margin: 25px 20px;
+    position: absolute;
+  }
+
+  &.facebook-icon {
+    background: url(../images/facebook-icon.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    position: relative;
+    display: block;
+    height: 64px;
+    width: 64px;
+  }
+
+  &.instagram-icon {
+    background: url(../images/instagram-icon.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    position: relative;
+    display: block;
+    height: 64px;
+    width: 64px;
+  }
+
+  &.visa-icon {
+    background: url(../images/visa-icon.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    position: relative;
+    display: block;
+    height: 64px;
+    width: 64px;
+  }
+
+  &.master-icon {
+    background: url(../images/master-icon.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    position: relative;
+    display: block;
+    height: 64px;
+    width: 64px;
+  }
+
+  &.button-arrow-right {
+    background: url(../images/arrow_forward_ios_24px_rounded.svg) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    padding: 10px 10px 10px 30px;
+    margin: 0px;
+    border-radius: 0px;
+    border: 0px;
+  }
+
+}

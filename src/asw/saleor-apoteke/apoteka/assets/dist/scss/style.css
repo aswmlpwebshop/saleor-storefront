@@ -1,0 +1,73 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+li.list-group-item, .card, a, button {
+  cursor: pointer;
+}
+
+section.banner {
+  background-color: #FFFFFF;
+}
+section.offers, section.futured, section.works, section.blog, section.product, section.google-map, section.footer, section.copy-right, section.viewed {
+  background-color: #F9F9F9;
+}
+
+p {
+  color: #161616;
+}
+
+.container {
+  max-width: 1680px;
+}
+
+button.background-image:focus {
+  outline: none;
+}
+
+svg.bi.bi-search {
+  color: #E8E8E8;
+}
+
+a.shop-now {
+  box-sizing: border-box;
+  border-radius: 32px;
+  padding: 20px 55px;
+  margin-top: 48px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  background: #007AC1;
+  border: 2px solid #007AC1;
+  text-transform: uppercase;
+  color: #E5E5E5;
+}
+a.shop-now:hover {
+  background: transparent;
+  color: #464646;
+  border: 2px solid #E8E8E8;
+}
+
+button.shop-now {
+  width: 100%;
+  border: 0px;
+  border-radius: 32px;
+  padding: 36px 55px;
+  margin-top: 33px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  background: #007AC1;
+  text-transform: uppercase;
+  color: #E5E5E5;
+}
+
+/*# sourceMappingURL=style.css.map */

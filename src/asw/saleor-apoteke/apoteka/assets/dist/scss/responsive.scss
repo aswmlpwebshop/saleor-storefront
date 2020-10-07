@@ -1,0 +1,284 @@
+@media screen and (max-width: 1280px) {
+  section {
+    &.head {
+      .search {
+        .logo {
+          a {
+            font-size: 52px;
+          }
+        }
+
+        .hart-circle {
+          width: 44px;
+          height: 44px;
+
+          .background-image {
+            height: 44px;
+            width: 44px;
+
+            span {
+              height: 14px;
+              width: 14px;
+              font-size: 9px;
+            }
+          }
+        }
+
+        .basket-circle {
+          width: 44px;
+          height: 44px;
+
+          .background-image {
+            height: 44px;
+            width: 44px;
+
+            span {
+              height: 14px;
+              width: 14px;
+              font-size: 9px;
+            }
+          }
+        }
+
+        .currency {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+
+    &.banner {
+      .categories {
+        .card {
+          .card-body {
+            ul {
+              &.list-group {
+                li {
+                  &.list-group-item {
+                    font-size: 13px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      #homeSlider {
+        .carousel-inner {
+          .carousel-item {
+            .carousel-caption {
+              h2 {
+                font-size: 62px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.futured {
+      #futuredSlider {
+        .carousel-inner {
+          .carousel-item {
+            .card {
+              button.category {
+                font-size: 11px;
+                padding: 10px 10px;
+                line-height: 18px;
+              }
+              &:hover {
+
+                button.category {
+                  font-size: 11px;
+                  padding: 10px 10px;
+                  line-height: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.product {
+      .card {
+        .card-body {
+          h4 {
+            font-size: 12px;
+            line-height: 23px;
+          }
+          p.price {
+            font-size: 24px;
+            line-height: 30px;
+          }
+        }
+
+        button.add-to-cart {
+          font-size: 12px;
+          line-height: 18px;
+          padding: 20px 15px;
+        }
+      }
+    }
+
+    &.footer {
+      span, p {
+        font-size: 12px;
+      }
+    }
+    &.copy-right {
+      a.logo {
+        font-size: 57px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  section {
+    &.head {
+      .language-menu {
+        font-size: 12px;
+        a {
+          font-size: 12px;
+        }
+      }
+      .search {
+        .logo {
+          a {
+            font-size: 42px;
+          }
+        }
+
+        .hart-circle {
+          width: 34px;
+          height: 34px;
+
+          .background-image {
+            height: 31px;
+            width: 31px;
+
+            span {
+              height: 14px;
+              width: 14px;
+              top: -7px;
+              font-size: 9px;
+            }
+          }
+        }
+
+        .basket-circle {
+          width: 34px;
+          height: 34px;
+
+          .background-image {
+            height: 31px;
+            width: 31px;
+
+            span {
+              height: 14px;
+              width: 14px;
+              top: -7px;
+              font-size: 9px;
+            }
+          }
+        }
+
+        .currency {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+
+    &.banner {
+      .categories {
+        .card {
+          .card-body {
+            ul {
+              &.list-group {
+                li {
+                  &.list-group-item {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      #homeSlider {
+        .carousel-inner {
+          .carousel-item {
+            .carousel-caption {
+              h2 {
+                font-size: 52px;
+              }
+              span.old-price {
+                font-size: 26px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.futured {
+      #futuredSlider {
+        .carousel-inner {
+          .carousel-item {
+            .card {
+              button.category {
+                font-size: 8px;
+                padding: 9px 9px;
+                line-height: 14px;
+              }
+              &:hover {
+
+                button.category {
+                  font-size: 8px;
+                  padding: 9px 9px;
+                  line-height: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.footer {
+      span, p {
+        font-size: 12px;
+      }
+    }
+    &.copy-right {
+      a.logo {
+        font-size: 44px;
+      }
+      span {
+        font-size: 12px;
+      }
+      .navbar {
+        ul.navbar-nav {
+          li.nav-item a {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  i {
+    &.minus-icon, &.pills-icon, &.cosmetics-icon, &.hartbeat-icon, &.harb-icon, &.insurance-icon, &.menu-icon, &.pillsbotle-icon{
+      left: -15%;
+    }
+
+  }
+  a.shop-now {
+    margin-top: 18px;
+  }
+
+
+}

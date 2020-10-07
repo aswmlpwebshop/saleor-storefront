@@ -1,0 +1,95 @@
+section {
+  &.blog {
+
+    #blogSlider {
+      .card {
+        background-color: transparent;
+        border: 0px;
+
+        .card-body {
+          padding: 0px;
+
+          h4 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            letter-spacing: 0.04em;
+            color: #464646;
+          }
+
+          p {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            letter-spacing: 0.04em;
+            color: #C4C4C4;
+          }
+
+          i {
+            right: 0px;
+          }
+        }
+
+        .new {
+          position: absolute;
+          width: 64px;
+          height: 64px;
+          left: 0px;
+          display: flex;
+          opacity: 0%;
+          top: 0px;
+          background: #03A9F4;
+          border-radius: 32px;
+          padding: 15px 15px;
+          margin: 20px;
+          font-family: 'Roboto', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 21px;
+          align-items: center;
+          color: #E5E5E5;
+        }
+      }
+
+      a.carousel-control-prev {
+        height: 64px;
+        width: 64px;
+        top: 40%;
+        border-radius: 100%;
+        opacity: 1;
+        color: #FFFFFF;
+        left: -2%;
+        background: #FFFFFF;
+      }
+      a.carousel-control-next {
+        height: 64px;
+        width: 64px;
+        top: 40%;
+        opacity: 1;
+        color: #464646;
+        right: -2%;
+        background: #FFFFFF;
+        border-radius: 100px;
+      }
+    }
+
+    a.show-all {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: right;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      position: absolute;
+      right: 0px;
+      top: 25%;
+      text-decoration: none;
+      color: #464646;
+    }
+
+  }
+}

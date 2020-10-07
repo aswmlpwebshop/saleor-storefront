@@ -1,0 +1,16 @@
+section {
+  &.viewed {
+    .card {
+      border-radius: 12px;
+      padding: 0px;
+
+      /*min-height: 504px;*/
+      transition: all 0.2s ease;
+    }
+
+    h3 {
+      position: absolute;
+      top: 40%;
+    }
+  }
+}
