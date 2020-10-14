@@ -47,6 +47,19 @@ i {
     position: absolute;
   }
 
+  &.close-icon {
+    background: url(../images/close_24px_rounded.png) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    height: 24px;
+    width: 24px;
+    padding: 24px;
+    display: inline;
+    position: relative;
+  }
+
   &.cosmetics-icon {
     background: url(../images/cosmetics.png) no-repeat center center;
     -webkit-background-size: auto;
@@ -242,6 +255,18 @@ i {
 
   &.button-arrow-right {
     background: url(../images/arrow_forward_ios_24px_rounded.svg) no-repeat center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    padding: 10px 10px 10px 30px;
+    margin: 0px;
+    border-radius: 0px;
+    border: 0px;
+  }
+
+  &.breadcrumb-arrow {
+    background: url(../images/breadcrumb-arrow.png) no-repeat center center;
     -webkit-background-size: auto;
     -moz-background-size: auto;
     -o-background-size: auto;

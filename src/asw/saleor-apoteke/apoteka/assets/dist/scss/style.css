@@ -7,7 +7,7 @@ li.list-group-item, .card, a, button {
 }
 
 section.banner {
-  background-color: #FFFFFF;
+  #background-color: #FFFFFF;
 }
 section.offers, section.futured, section.works, section.blog, section.product, section.google-map, section.footer, section.copy-right, section.viewed {
   background-color: #F9F9F9;

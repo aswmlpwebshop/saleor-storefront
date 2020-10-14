@@ -42,6 +42,18 @@ i.pills-icon {
   left: -9%;
   position: absolute;
 }
+i.close-icon {
+  background: url(../images/close_24px_rounded.png) no-repeat center center;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size: auto;
+  height: 24px;
+  width: 24px;
+  padding: 24px;
+  display: inline;
+  position: relative;
+}
 i.cosmetics-icon {
   background: url(../images/cosmetics.png) no-repeat center center;
   -webkit-background-size: auto;
@@ -229,20 +241,33 @@ i.button-arrow-right {
   border-radius: 0px;
   border: 0px;
 }
+i.breadcrumb-arrow {
+  background: url(../images/breadcrumb-arrow.png) no-repeat center center;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size: auto;
+  padding: 10px 10px 10px 30px;
+  margin: 0px;
+  border-radius: 0px;
+  border: 0px;
+}
 
 section {
   /****** MAIN NAVIGATION ******/
 }
 section.head {
+  background-color: #ffffff;
   /*** LANGUAGE MENU *****/
   /**** SEARCH MENU ******/
 }
 section.head .language-menu {
-  margin: 13px 0px;
+  padding: 13px 0px;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
+  border-color: #ffffff;
 }
 section.head .language-menu label {
   color: #C4C4C4;
@@ -514,6 +539,7 @@ section.head .search #hartNavDropdown ul#basket li.nav-item .basket-footer .inpu
 }
 section nav.navbar.main {
   height: 64px;
+  padding-bottom: 30px;
   color: #161616;
 }
 section nav.navbar.language ul.navbar-nav {
@@ -587,11 +613,10 @@ section.banner .categories .card .card-body {
   padding: 0rem 0rem 0rem 0rem;
 }
 section.banner .categories .card .card-body .card-title {
-  margin-bottom: 1.5rem;
-  margin-left: 1.5rem;
+  margin: 1.5rem 0rem 1.5rem 1.5rem;
 }
 section.banner .categories .card .card-body .all-categories {
-  margin-top: 2rem;
+  margin-top: 0rem;
 }
 section.banner .categories .card .card-body .all-categories ul.list-group li.list-group-item:before {
   background: url(../images/menu_24px.png) no-repeat center center;
@@ -605,8 +630,8 @@ section.banner .categories .card .card-body .all-categories ul.list-group li.lis
   border: 0px;
 }
 section.banner .categories .card .card-body ul.list-group li.list-group-item {
-  padding: 23px 0px 0px 0px;
-  margin-left: 76px;
+  margin-left: 65px;
+  padding: 23px 0px 0px 10px;
   background-color: transparent;
   position: relative;
   border-bottom: 1px solid #E8E8E8;
@@ -645,6 +670,35 @@ section.banner .categories .card .card-body ul.list-group li.list-group-item:hov
 }
 section.banner .categories .card .card-body ul.list-group li.list-group-item:hover p, section.banner .categories .card .card-body ul.list-group li.list-group-item.active p {
   margin: 0px;
+}
+section.banner .categories .btn.category {
+  border: 2px solid #E8E8E8;
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 12px 22px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  background-color: transparent;
+  color: #161616;
+  margin: 0px 12px 28px 12px;
+}
+section.banner .categories .btn.category.active, section.banner .categories .btn.category:hover {
+  border: 2px solid #E1F5FE;
+  color: #464646;
+  background-color: #E1F5FE;
+}
+section.banner .categories p.label {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  width: 100px;
 }
 section.banner #homeSlider {
   border-radius: 24px;
@@ -1610,6 +1664,29 @@ section.product button.add-to-cart {
     opacity: 0;
   }
 }
+#category {
+  background-color: #F9F9F9;
+}
+
+section.breadcrumb {
+  background-color: #f9f9f9;
+}
+section.breadcrumb ul.breadcrumb {
+  background-color: #f9f9f9;
+  margin-bottom: 0px;
+}
+section.breadcrumb ul.breadcrumb li.breadcrumb-item::before {
+  content: "";
+}
+section.breadcrumb ul.breadcrumb li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #464646;
+  text-decoration: none;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -1619,7 +1696,7 @@ li.list-group-item, .card, a, button {
 }
 
 section.banner {
-  background-color: #FFFFFF;
+  #background-color: #FFFFFF;
 }
 section.offers, section.futured, section.works, section.blog, section.product, section.google-map, section.footer, section.copy-right, section.viewed {
   background-color: #F9F9F9;

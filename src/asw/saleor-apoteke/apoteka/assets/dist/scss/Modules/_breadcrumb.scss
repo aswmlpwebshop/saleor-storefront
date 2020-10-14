@@ -1,0 +1,27 @@
+section {
+  &.breadcrumb {
+    background-color: #f9f9f9;
+    ul {
+      &.breadcrumb{
+        background-color: #f9f9f9;
+        margin-bottom: 0px;
+
+        li {
+          &.breadcrumb-item {
+            &::before{
+              content:"";
+            }
+          }
+          a {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #464646;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

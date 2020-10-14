@@ -1,14 +1,15 @@
 section {
   &.head {
-
+    background-color: #ffffff;
     /*** LANGUAGE MENU *****/
 
     .language-menu {
-      margin: 13px 0px;
+      padding: 13px 0px;
       font-style: normal;
       font-weight: 500;
       font-size: 18px;
       line-height: 21px;
+      border-color: #ffffff;
 
       label {
         color: #C4C4C4;
@@ -341,6 +342,7 @@ section {
   nav.navbar {
     &.main {
       height: 64px;
+      padding-bottom: 30px;
       color: #161616;
     }
 
